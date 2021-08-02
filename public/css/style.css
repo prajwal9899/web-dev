@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poiret One', sans-serif;
+}
+img{
+    width: 89%;
+}
+.btn-style{
+    background: #fd5c63 ;
+}
+.navbar-style{
+    box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
+
+#logo {
+    color: #fd5c63;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #525252;
+    text-transform: capitalize;
+    padding-left: 1rem;
+    font-size: 1.2rem
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #fd5c63;
+}
+
+.hero-text h1 {
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+
+.hero-text h1:nth-child(2) {
+    font-weight: bold;
+    color: #5222d0;
+}
+
+.speedup:hover {
+    box-shadow:  0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg #f33474 0%, #f55b2a 50%);
+}
+
+.settings:hover {
+    box-shadow:  0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg #49d0da 0%, #210c59 50%);
+}
+
+.privacy:hover {
+    box-shadow:  0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg #5035ec 0%, #44a2f6 50%);
+}
+
+.backups:hover {
+    box-shadow:  0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg #fd7f30 0%, #fdb642 50%);
+}
+
+.ssl:hover {
+    box-shadow:  0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg #974eff 0%, #5a57fb 50%);
+}
+
+.database:hover {
+    box-shadow:  0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg #f33474 0%, #f55b2a 50%);
+}
+
+.ourservices .speedup{
+    box-shadow:  0 0 25px 0 rgba(33, 39, 221, 0.2);
+    background-image: linear-gradient(-45deg #f33474 0%, #f55b2a 50%);
+    
+}
